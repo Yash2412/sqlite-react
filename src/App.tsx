@@ -44,10 +44,11 @@ function App() {
         value={input}
         onChange={handleInputChange}
         onKeyDown={(e) => (e.key === "Enter" ? runQuery(input) : null)}
+        placeholder="Enter your sql query"
       />
 
       <div className="flex w-full gap-4 justify-between">
-        <div className="w-1/3">Selected DB: {dbName}</div>
+        <div className="w-1/3 flex text-left">Selected DB: {dbName}</div>
         <input
           type="file"
           accept=".sqlite3"
