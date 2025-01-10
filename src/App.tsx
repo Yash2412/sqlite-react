@@ -38,6 +38,7 @@ function App() {
 
   return (
     <div className="flex flex-col gap-4 justify-start">
+      <h1><a href="https://github.com/Yash2412/sqlite-react">sqlite-react</a></h1>
       <textarea
         className="rounded-md p-5 w-full"
         rows={2}
